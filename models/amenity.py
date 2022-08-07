@@ -1,15 +1,14 @@
-#!/usr/bin/python3
+#! /usr/bin/python3
+""" 
+Class that defines  amenity
+
 """
-Module for Amenity class
-"""
+
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Custom amenity class
-
-    Attributes:
-        name(str): amenity name
-
+    """
+    Defines amenity  
     """
     name = ""
